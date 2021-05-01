@@ -1,13 +1,15 @@
 <template>
-  <hello></hello>
+<div id="app">
+  <Wrapper></Wrapper>
+</div>
 </template>
 
 <script>
-import Hello from "./components/Hello.vue";
+import Wrapper from "./components/Wrapper.vue";
 
 export default {
   components: {
-    Hello
+    Wrapper,
   }
 };
 </script>
